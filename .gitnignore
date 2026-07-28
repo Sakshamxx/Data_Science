@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# Claude / AI
+.claude/
+.agents/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model files (optional)
+# Uncomment these if you DON'T want to upload trained models
+# *.pkl
+# *.joblib
+
+# Logs
+*.log
