@@ -1,0 +1,501 @@
+Patient_ID,Age,Gender,Blood_Pressure,Heart_Rate,Cholesterol_Level,BMI,Diagnosis,Treatment_Plan,Follow_Up_Date
+1,51,Female,97,90,282,35.2,Hypertension,Observation,2024-01-01
+2,92,Other,129,80,169,32.3,Healthy,Medication,2024-01-02
+3,14,Male,172,76,157,29.9,Diabetes,Observation,2024-01-03
+4,71,Female,131,82,150,19.4,Coronary Artery Disease,Surgery,2024-01-04
+5,60,Male,130,96,206,39.3,Diabetes,None,2024-01-05
+6,20,Male,95,75,213,35.7,Healthy,Observation,2024-01-06
+7,82,Female,141,65,267,24.8,Hypertension,None,2024-01-07
+8,86,Male,115,67,177,39.6,Hyperlipidemia,Observation,2024-01-08
+9,74,Other,153,84,270,31.4,Healthy,Surgery,2024-01-09
+10,74,Male,148,77,256,31.0,Hypertension,Medication,2024-01-10
+11,87,Female,145,84,198,34.6,Coronary Artery Disease,Surgery,2024-01-11
+12,99,Female,148,71,269,36.0,Diabetes,Medication,2024-01-12
+13,23,Female,159,74,193,32.6,Diabetes,Medication,2024-01-13
+14,2,Male,122,85,205,21.3,Diabetes,None,2024-01-14
+15,21,Female,142,85,260,25.8,Coronary Artery Disease,Surgery,2024-01-15
+16,52,Female,111,91,283,38.5,Hypertension,Observation,2024-01-16
+17,1,Male,110,69,257,23.3,Coronary Artery Disease,Surgery,2024-01-17
+18,87,Other,159,75,297,26.5,Diabetes,None,2024-01-18
+19,29,Male,159,66,263,27.8,Healthy,Medication,2024-01-19
+20,37,Female,93,76,227,27.9,Hyperlipidemia,None,2024-01-20
+21,1,Female,164,82,279,31.7,Coronary Artery Disease,Lifestyle Changes,2024-01-21
+22,63,Male,151,85,186,38.8,Coronary Artery Disease,Lifestyle Changes,2024-01-22
+23,59,Other,151,80,169,23.7,Hypertension,Observation,2024-01-23
+24,20,Female,113,81,175,21.1,Hypertension,None,2024-01-24
+25,32,Female,144,66,178,22.7,Coronary Artery Disease,Observation,2024-01-25
+26,75,Female,98,73,150,37.6,Diabetes,Observation,2024-01-26
+27,57,Male,92,74,268,32.4,Hyperlipidemia,Lifestyle Changes,2024-01-27
+28,21,Female,120,66,184,24.6,Hypertension,Observation,2024-01-28
+29,88,Other,129,68,208,36.0,Diabetes,Lifestyle Changes,2024-01-29
+30,48,Female,125,67,218,37.0,Healthy,Medication,2024-01-30
+31,90,Female,113,82,161,36.7,Hypertension,None,2024-01-31
+32,58,Other,95,88,169,38.3,Diabetes,Observation,2024-02-01
+33,41,Female,155,77,192,23.9,Diabetes,Lifestyle Changes,2024-02-02
+34,91,Male,173,90,275,34.7,Hyperlipidemia,Surgery,2024-02-03
+35,59,Male,164,89,199,28.4,Hyperlipidemia,Observation,2024-02-04
+36,79,Male,93,98,178,36.6,Healthy,Medication,2024-02-05
+37,14,Other,168,94,188,34.2,Diabetes,Medication,2024-02-06
+38,61,Female,95,77,187,35.2,Diabetes,Surgery,2024-02-07
+39,61,Male,140,98,233,32.6,Hyperlipidemia,Lifestyle Changes,2024-02-08
+40,46,Other,151,76,277,22.3,Hypertension,Observation,2024-02-09
+41,61,Female,146,73,275,30.2,Hypertension,Lifestyle Changes,2024-02-10
+42,50,Other,155,90,194,39.7,Coronary Artery Disease,Medication,2024-02-11
+43,54,Male,168,83,201,38.7,Hyperlipidemia,Lifestyle Changes,2024-02-12
+44,63,Male,164,94,229,19.4,Coronary Artery Disease,Medication,2024-02-13
+45,2,Male,97,93,273,22.0,Hyperlipidemia,Lifestyle Changes,2024-02-14
+46,50,Other,115,62,268,21.3,Healthy,Surgery,2024-02-15
+47,6,Other,140,96,157,34.1,Diabetes,None,2024-02-16
+48,20,Male,134,99,234,36.1,Healthy,Surgery,2024-02-17
+49,72,Other,133,85,278,23.1,Hyperlipidemia,Surgery,2024-02-18
+50,38,Male,94,82,157,29.4,Diabetes,None,2024-02-19
+51,17,Male,159,98,245,36.6,Hypertension,None,2024-02-20
+52,3,Female,115,74,251,34.3,Hypertension,Observation,2024-02-21
+53,88,Other,157,63,154,30.2,Coronary Artery Disease,Observation,2024-02-22
+54,59,Male,108,88,235,31.2,Hyperlipidemia,Surgery,2024-02-23
+55,13,Male,173,81,183,29.4,Hyperlipidemia,Surgery,2024-02-24
+56,8,Other,109,84,204,24.9,Hypertension,Medication,2024-02-25
+57,89,Female,101,72,268,30.6,Healthy,Medication,2024-02-26
+58,52,Female,136,77,263,33.3,Diabetes,Observation,2024-02-27
+59,1,Male,90,92,294,37.3,Healthy,Observation,2024-02-28
+60,83,Other,179,75,175,32.2,Healthy,Medication,2024-02-29
+61,91,Female,103,61,285,34.9,Hypertension,Medication,2024-03-01
+62,59,Other,153,94,196,21.9,Hypertension,Lifestyle Changes,2024-03-02
+63,70,Other,127,93,262,28.4,Hypertension,Lifestyle Changes,2024-03-03
+64,43,Male,126,89,225,18.7,Coronary Artery Disease,Medication,2024-03-04
+65,7,Female,100,72,221,23.8,Healthy,Lifestyle Changes,2024-03-05
+66,46,Male,166,72,238,34.1,Hyperlipidemia,None,2024-03-06
+67,34,Female,92,77,195,39.8,Diabetes,Observation,2024-03-07
+68,77,Female,122,91,182,20.6,Coronary Artery Disease,Observation,2024-03-08
+69,80,Female,95,91,150,27.1,Hyperlipidemia,Medication,2024-03-09
+70,35,Female,139,94,296,35.7,Healthy,Surgery,2024-03-10
+71,49,Female,99,98,180,22.9,Hypertension,Medication,2024-03-11
+72,3,Other,94,88,291,30.4,Healthy,Lifestyle Changes,2024-03-12
+73,1,Male,112,88,202,34.3,Diabetes,Surgery,2024-03-13
+74,5,Other,99,75,197,31.7,Coronary Artery Disease,Lifestyle Changes,2024-03-14
+75,53,Female,133,69,218,22.5,Coronary Artery Disease,None,2024-03-15
+76,3,Male,91,89,254,26.1,Diabetes,Lifestyle Changes,2024-03-16
+77,53,Female,102,84,239,35.4,Hyperlipidemia,None,2024-03-17
+78,92,Male,129,98,212,30.4,Hyperlipidemia,None,2024-03-18
+79,62,Other,91,79,222,18.6,Coronary Artery Disease,Lifestyle Changes,2024-03-19
+80,17,Male,173,64,238,34.9,Coronary Artery Disease,Lifestyle Changes,2024-03-20
+81,89,Male,154,60,162,19.3,Hypertension,None,2024-03-21
+82,43,Male,152,89,222,34.5,Hyperlipidemia,Surgery,2024-03-22
+83,33,Male,162,62,226,22.9,Diabetes,None,2024-03-23
+84,73,Male,106,73,217,39.1,Hyperlipidemia,Observation,2024-03-24
+85,61,Female,98,89,247,26.4,Hypertension,None,2024-03-25
+86,99,Male,164,63,274,25.5,Coronary Artery Disease,Surgery,2024-03-26
+87,13,Male,104,77,251,21.7,Coronary Artery Disease,Observation,2024-03-27
+88,94,Other,113,96,281,25.1,Hypertension,Medication,2024-03-28
+89,47,Male,127,84,251,37.3,Diabetes,Medication,2024-03-29
+90,14,Other,124,60,168,39.9,Coronary Artery Disease,Surgery,2024-03-30
+91,71,Female,138,74,231,26.4,Healthy,None,2024-03-31
+92,77,Male,158,68,290,28.1,Coronary Artery Disease,Lifestyle Changes,2024-04-01
+93,86,Other,151,74,172,34.0,Healthy,Surgery,2024-04-02
+94,61,Other,149,83,232,37.6,Hypertension,Observation,2024-04-03
+95,39,Female,139,63,258,31.3,Hypertension,Observation,2024-04-04
+96,84,Male,167,71,224,26.9,Coronary Artery Disease,Medication,2024-04-05
+97,79,Male,164,96,278,27.4,Hyperlipidemia,Observation,2024-04-06
+98,81,Other,98,96,237,33.5,Healthy,Surgery,2024-04-07
+99,52,Male,123,65,203,18.6,Diabetes,Observation,2024-04-08
+100,23,Other,165,98,238,31.8,Coronary Artery Disease,Surgery,2024-04-09
+101,25,Male,124,83,292,26.1,Diabetes,Lifestyle Changes,2024-04-10
+102,88,Other,90,70,214,35.6,Coronary Artery Disease,Medication,2024-04-11
+103,59,Male,129,72,225,20.5,Hyperlipidemia,Observation,2024-04-12
+104,40,Female,153,93,292,31.1,Hyperlipidemia,Surgery,2024-04-13
+105,28,Male,111,84,298,28.8,Hyperlipidemia,None,2024-04-14
+106,14,Male,149,66,296,32.3,Hyperlipidemia,Medication,2024-04-15
+107,44,Female,153,63,209,19.9,Hypertension,Lifestyle Changes,2024-04-16
+108,64,Male,161,67,242,31.0,Hypertension,Surgery,2024-04-17
+109,88,Female,100,79,198,30.6,Healthy,Lifestyle Changes,2024-04-18
+110,70,Male,103,88,184,30.6,Diabetes,Lifestyle Changes,2024-04-19
+111,8,Other,149,69,251,31.5,Coronary Artery Disease,Observation,2024-04-20
+112,87,Other,119,93,160,33.0,Coronary Artery Disease,Observation,2024-04-21
+113,0,Male,124,85,248,35.8,Hypertension,Surgery,2024-04-22
+114,7,Male,174,62,259,24.3,Coronary Artery Disease,None,2024-04-23
+115,87,Male,126,65,223,36.2,Hypertension,Surgery,2024-04-24
+116,62,Other,94,64,158,29.2,Healthy,None,2024-04-25
+117,10,Male,172,64,152,20.2,Diabetes,Lifestyle Changes,2024-04-26
+118,80,Other,167,82,234,19.8,Healthy,Medication,2024-04-27
+119,7,Female,115,68,175,25.7,Hyperlipidemia,Surgery,2024-04-28
+120,34,Other,151,94,221,35.4,Hyperlipidemia,Surgery,2024-04-29
+121,34,Other,93,79,197,33.7,Hyperlipidemia,None,2024-04-30
+122,32,Female,178,94,266,35.5,Healthy,Lifestyle Changes,2024-05-01
+123,4,Other,131,77,161,29.6,Coronary Artery Disease,Lifestyle Changes,2024-05-02
+124,40,Male,178,76,282,28.0,Diabetes,None,2024-05-03
+125,27,Male,107,83,197,21.7,Hyperlipidemia,Lifestyle Changes,2024-05-04
+126,6,Other,129,62,186,25.6,Hyperlipidemia,Observation,2024-05-05
+127,72,Male,161,91,193,27.8,Hyperlipidemia,Medication,2024-05-06
+128,71,Other,128,94,164,20.4,Diabetes,Surgery,2024-05-07
+129,11,Male,103,97,192,23.2,Hyperlipidemia,Medication,2024-05-08
+130,33,Male,121,72,236,31.4,Diabetes,Surgery,2024-05-09
+131,32,Other,140,84,219,34.3,Hyperlipidemia,Observation,2024-05-10
+132,47,Male,127,68,195,40.0,Healthy,Lifestyle Changes,2024-05-11
+133,22,Other,112,63,257,38.6,Healthy,None,2024-05-12
+134,61,Male,152,73,272,32.3,Diabetes,Observation,2024-05-13
+135,87,Male,104,96,170,27.6,Healthy,Medication,2024-05-14
+136,36,Female,114,93,256,32.2,Diabetes,None,2024-05-15
+137,98,Female,106,70,229,35.4,Healthy,Lifestyle Changes,2024-05-16
+138,43,Other,155,62,196,21.0,Healthy,Observation,2024-05-17
+139,85,Female,167,87,266,27.3,Diabetes,None,2024-05-18
+140,90,Other,142,88,273,36.6,Coronary Artery Disease,Observation,2024-05-19
+141,34,Female,140,68,292,26.8,Healthy,Observation,2024-05-20
+142,64,Male,128,62,174,30.8,Hyperlipidemia,Lifestyle Changes,2024-05-21
+143,98,Other,140,84,185,31.1,Coronary Artery Disease,Surgery,2024-05-22
+144,46,Other,159,93,200,22.5,Diabetes,None,2024-05-23
+145,77,Male,95,71,164,26.3,Coronary Artery Disease,Lifestyle Changes,2024-05-24
+146,2,Other,156,68,217,25.7,Hypertension,Observation,2024-05-25
+147,0,Other,96,74,170,19.1,Hypertension,Lifestyle Changes,2024-05-26
+148,4,Female,140,99,290,19.0,Healthy,Surgery,2024-05-27
+149,89,Other,161,84,168,36.4,Healthy,None,2024-05-28
+150,13,Male,131,64,183,24.4,Hyperlipidemia,Surgery,2024-05-29
+151,26,Female,153,70,227,29.6,Coronary Artery Disease,Medication,2024-05-30
+152,8,Female,104,93,274,24.9,Hypertension,None,2024-05-31
+153,78,Male,118,83,266,38.7,Healthy,Surgery,2024-06-01
+154,14,Male,122,74,201,24.1,Coronary Artery Disease,Observation,2024-06-02
+155,89,Female,116,97,176,27.7,Healthy,None,2024-06-03
+156,41,Other,125,67,184,37.3,Healthy,None,2024-06-04
+157,76,Female,118,64,285,36.6,Hypertension,Lifestyle Changes,2024-06-05
+158,50,Male,127,85,293,22.5,Hypertension,Observation,2024-06-06
+159,62,Female,146,77,255,35.8,Healthy,Medication,2024-06-07
+160,95,Male,116,65,295,28.4,Diabetes,Surgery,2024-06-08
+161,51,Female,144,96,151,28.9,Healthy,Lifestyle Changes,2024-06-09
+162,95,Other,122,72,226,21.4,Healthy,Surgery,2024-06-10
+163,3,Female,157,87,281,20.2,Hyperlipidemia,Medication,2024-06-11
+164,93,Female,175,64,239,34.2,Hyperlipidemia,Medication,2024-06-12
+165,22,Male,155,72,238,29.2,Hyperlipidemia,None,2024-06-13
+166,14,Male,99,76,243,27.9,Diabetes,Medication,2024-06-14
+167,42,Male,94,99,156,34.2,Diabetes,Surgery,2024-06-15
+168,28,Female,163,91,244,35.0,Healthy,Observation,2024-06-16
+169,35,Other,127,88,257,21.9,Hyperlipidemia,Observation,2024-06-17
+170,12,Male,102,62,223,31.6,Diabetes,None,2024-06-18
+171,31,Male,120,99,188,21.4,Hypertension,Surgery,2024-06-19
+172,70,Female,136,93,290,34.7,Healthy,Surgery,2024-06-20
+173,58,Male,177,99,220,32.6,Coronary Artery Disease,Medication,2024-06-21
+174,85,Other,141,86,205,39.1,Healthy,Surgery,2024-06-22
+175,27,Other,145,72,191,20.0,Coronary Artery Disease,Lifestyle Changes,2024-06-23
+176,65,Male,104,92,185,19.7,Hyperlipidemia,Medication,2024-06-24
+177,41,Male,118,65,233,24.6,Coronary Artery Disease,Lifestyle Changes,2024-06-25
+178,44,Female,97,83,267,24.1,Hyperlipidemia,None,2024-06-26
+179,61,Other,94,78,156,23.8,Hypertension,Observation,2024-06-27
+180,56,Other,118,75,203,38.0,Coronary Artery Disease,None,2024-06-28
+181,5,Male,136,99,278,23.9,Healthy,Observation,2024-06-29
+182,27,Female,157,87,269,24.3,Hyperlipidemia,None,2024-06-30
+183,27,Other,165,92,255,34.8,Healthy,Surgery,2024-07-01
+184,43,Other,134,72,196,28.2,Diabetes,Lifestyle Changes,2024-07-02
+185,83,Female,91,84,272,35.2,Hyperlipidemia,Observation,2024-07-03
+186,29,Female,116,95,290,19.9,Coronary Artery Disease,Medication,2024-07-04
+187,61,Other,125,86,268,29.0,Hyperlipidemia,Lifestyle Changes,2024-07-05
+188,74,Other,125,97,299,19.2,Healthy,Medication,2024-07-06
+189,91,Female,115,66,267,19.8,Hypertension,Lifestyle Changes,2024-07-07
+190,88,Other,132,64,170,38.0,Hyperlipidemia,Lifestyle Changes,2024-07-08
+191,61,Male,116,90,286,21.5,Coronary Artery Disease,None,2024-07-09
+192,96,Male,158,82,175,29.9,Diabetes,Observation,2024-07-10
+193,0,Female,109,69,158,27.3,Hypertension,Observation,2024-07-11
+194,26,Female,100,91,164,26.0,Diabetes,Lifestyle Changes,2024-07-12
+195,61,Female,163,89,159,37.8,Hyperlipidemia,Surgery,2024-07-13
+196,76,Male,127,98,271,19.0,Healthy,Surgery,2024-07-14
+197,2,Other,95,90,270,32.8,Healthy,Medication,2024-07-15
+198,69,Male,161,77,274,39.2,Coronary Artery Disease,Medication,2024-07-16
+199,71,Other,112,95,221,30.5,Healthy,None,2024-07-17
+200,26,Male,136,61,198,38.6,Hypertension,Lifestyle Changes,2024-07-18
+201,8,Other,179,73,240,19.6,Healthy,Medication,2024-07-19
+202,61,Male,135,72,186,27.5,Coronary Artery Disease,Medication,2024-07-20
+203,36,Female,101,88,217,24.1,Hyperlipidemia,Lifestyle Changes,2024-07-21
+204,96,Male,179,71,199,34.2,Hyperlipidemia,None,2024-07-22
+205,50,Other,102,98,168,39.6,Healthy,Medication,2024-07-23
+206,43,Male,151,61,249,24.0,Diabetes,None,2024-07-24
+207,23,Male,171,91,209,32.6,Hyperlipidemia,Observation,2024-07-25
+208,78,Male,178,72,238,22.8,Healthy,None,2024-07-26
+209,58,Female,149,86,295,30.7,Coronary Artery Disease,Surgery,2024-07-27
+210,31,Male,132,76,296,28.5,Healthy,Surgery,2024-07-28
+211,95,Female,165,99,218,39.4,Hyperlipidemia,None,2024-07-29
+212,87,Female,157,90,198,31.6,Coronary Artery Disease,Surgery,2024-07-30
+213,51,Male,94,93,257,26.0,Healthy,Observation,2024-07-31
+214,61,Male,126,83,268,21.0,Hypertension,Lifestyle Changes,2024-08-01
+215,57,Male,161,94,298,21.8,Coronary Artery Disease,Surgery,2024-08-02
+216,51,Other,120,65,299,23.3,Hypertension,Surgery,2024-08-03
+217,11,Male,98,78,186,23.9,Diabetes,None,2024-08-04
+218,38,Female,140,89,292,36.8,Coronary Artery Disease,Observation,2024-08-05
+219,1,Male,118,66,160,30.6,Hypertension,Lifestyle Changes,2024-08-06
+220,2,Other,167,69,287,29.8,Hyperlipidemia,None,2024-08-07
+221,55,Male,129,91,227,21.0,Hyperlipidemia,None,2024-08-08
+222,80,Other,130,93,226,37.0,Diabetes,Observation,2024-08-09
+223,58,Other,175,87,151,34.0,Coronary Artery Disease,Lifestyle Changes,2024-08-10
+224,1,Male,100,74,213,20.0,Coronary Artery Disease,Observation,2024-08-11
+225,1,Female,112,89,184,33.7,Coronary Artery Disease,Lifestyle Changes,2024-08-12
+226,91,Other,90,96,156,30.2,Diabetes,Observation,2024-08-13
+227,53,Male,135,88,234,20.3,Coronary Artery Disease,None,2024-08-14
+228,86,Male,110,81,295,28.4,Hyperlipidemia,None,2024-08-15
+229,95,Female,179,63,216,28.9,Hypertension,Medication,2024-08-16
+230,96,Other,125,79,191,22.1,Hyperlipidemia,Surgery,2024-08-17
+231,0,Other,143,91,267,38.8,Hyperlipidemia,Observation,2024-08-18
+232,18,Male,176,95,274,36.8,Hypertension,Medication,2024-08-19
+233,1,Male,146,63,173,32.9,Hyperlipidemia,Surgery,2024-08-20
+234,52,Female,90,86,195,28.4,Diabetes,Observation,2024-08-21
+235,43,Female,152,76,168,27.4,Hypertension,Lifestyle Changes,2024-08-22
+236,89,Other,143,71,217,32.5,Hyperlipidemia,Surgery,2024-08-23
+237,31,Other,144,81,251,30.2,Healthy,None,2024-08-24
+238,69,Male,129,76,191,19.8,Hyperlipidemia,Medication,2024-08-25
+239,31,Other,104,69,181,29.5,Diabetes,Surgery,2024-08-26
+240,67,Female,110,60,258,35.8,Coronary Artery Disease,Surgery,2024-08-27
+241,54,Female,136,81,185,28.4,Hyperlipidemia,None,2024-08-28
+242,74,Male,162,85,246,19.6,Coronary Artery Disease,Observation,2024-08-29
+243,55,Female,142,77,280,35.4,Healthy,Lifestyle Changes,2024-08-30
+244,16,Female,98,73,222,22.8,Hyperlipidemia,None,2024-08-31
+245,37,Female,163,88,285,24.1,Hypertension,Lifestyle Changes,2024-09-01
+246,23,Female,141,71,246,22.0,Coronary Artery Disease,Observation,2024-09-02
+247,68,Male,146,95,272,25.6,Healthy,Surgery,2024-09-03
+248,97,Male,115,94,219,34.8,Hypertension,Lifestyle Changes,2024-09-04
+249,69,Other,130,71,162,29.7,Hypertension,Medication,2024-09-05
+250,85,Female,124,66,198,22.9,Hypertension,Medication,2024-09-06
+251,10,Other,152,88,209,37.4,Hypertension,None,2024-09-07
+252,15,Male,114,70,279,37.4,Hyperlipidemia,Observation,2024-09-08
+253,96,Male,179,92,154,37.2,Hyperlipidemia,None,2024-09-09
+254,72,Male,164,65,176,23.6,Hyperlipidemia,None,2024-09-10
+255,58,Male,127,74,298,28.2,Healthy,None,2024-09-11
+256,69,Male,91,91,157,39.7,Healthy,Medication,2024-09-12
+257,79,Male,96,70,199,35.1,Healthy,Medication,2024-09-13
+258,92,Male,171,82,216,19.1,Diabetes,None,2024-09-14
+259,2,Female,123,85,193,19.9,Healthy,Medication,2024-09-15
+260,19,Other,106,93,274,28.5,Hyperlipidemia,Observation,2024-09-16
+261,58,Male,132,93,207,38.0,Hyperlipidemia,None,2024-09-17
+262,35,Female,148,88,152,30.1,Diabetes,Medication,2024-09-18
+263,18,Female,140,63,235,29.2,Diabetes,Lifestyle Changes,2024-09-19
+264,89,Other,143,76,219,20.8,Healthy,None,2024-09-20
+265,66,Male,113,94,279,32.6,Coronary Artery Disease,None,2024-09-21
+266,18,Other,114,72,151,36.2,Diabetes,Observation,2024-09-22
+267,19,Male,160,98,251,26.7,Hypertension,Surgery,2024-09-23
+268,95,Female,141,74,184,35.2,Hyperlipidemia,Surgery,2024-09-24
+269,70,Female,159,88,247,39.2,Hypertension,Observation,2024-09-25
+270,51,Female,177,88,179,22.9,Hyperlipidemia,Observation,2024-09-26
+271,32,Female,122,70,265,29.8,Hyperlipidemia,Observation,2024-09-27
+272,39,Other,138,91,157,24.7,Diabetes,Surgery,2024-09-28
+273,38,Male,118,61,299,35.5,Diabetes,Observation,2024-09-29
+274,81,Male,152,73,193,30.9,Hypertension,Medication,2024-09-30
+275,0,Other,111,79,185,32.1,Hyperlipidemia,None,2024-10-01
+276,10,Male,115,81,226,35.7,Hypertension,None,2024-10-02
+277,91,Female,117,70,180,27.0,Coronary Artery Disease,Lifestyle Changes,2024-10-03
+278,56,Male,174,86,196,38.2,Hypertension,Lifestyle Changes,2024-10-04
+279,88,Female,138,62,204,30.0,Healthy,None,2024-10-05
+280,49,Other,160,76,255,21.9,Hypertension,Medication,2024-10-06
+281,22,Male,170,87,270,33.5,Healthy,Surgery,2024-10-07
+282,30,Other,173,88,204,35.6,Healthy,Surgery,2024-10-08
+283,93,Male,138,80,293,25.3,Healthy,Medication,2024-10-09
+284,41,Female,109,75,161,36.9,Coronary Artery Disease,Surgery,2024-10-10
+285,98,Other,175,96,294,38.0,Hypertension,Observation,2024-10-11
+286,6,Male,152,79,293,24.5,Hypertension,None,2024-10-12
+287,15,Female,150,65,289,39.6,Coronary Artery Disease,None,2024-10-13
+288,89,Other,138,78,285,21.5,Hyperlipidemia,Medication,2024-10-14
+289,59,Other,160,64,152,22.8,Diabetes,Surgery,2024-10-15
+290,1,Male,90,62,293,22.5,Hypertension,Lifestyle Changes,2024-10-16
+291,0,Male,102,60,179,37.7,Diabetes,Lifestyle Changes,2024-10-17
+292,47,Male,176,97,172,32.6,Coronary Artery Disease,Surgery,2024-10-18
+293,11,Female,140,74,241,21.8,Hyperlipidemia,Lifestyle Changes,2024-10-19
+294,68,Male,145,93,264,28.0,Hyperlipidemia,Medication,2024-10-20
+295,36,Other,172,94,253,31.7,Hyperlipidemia,Medication,2024-10-21
+296,31,Other,151,84,267,20.3,Coronary Artery Disease,Surgery,2024-10-22
+297,8,Male,121,83,154,37.5,Healthy,Lifestyle Changes,2024-10-23
+298,98,Male,119,71,253,35.8,Healthy,Medication,2024-10-24
+299,18,Other,118,77,257,29.4,Diabetes,Medication,2024-10-25
+300,47,Female,138,74,214,39.3,Healthy,Observation,2024-10-26
+301,79,Male,134,75,270,27.5,Healthy,Observation,2024-10-27
+302,2,Male,119,86,179,39.7,Hyperlipidemia,Medication,2024-10-28
+303,19,Other,105,67,298,32.9,Hyperlipidemia,Surgery,2024-10-29
+304,23,Male,129,84,233,32.1,Diabetes,None,2024-10-30
+305,53,Female,108,76,299,22.1,Hypertension,None,2024-10-31
+306,32,Other,107,88,181,37.5,Diabetes,Medication,2024-11-01
+307,23,Male,90,67,165,27.7,Diabetes,Medication,2024-11-02
+308,74,Other,167,74,187,22.0,Coronary Artery Disease,Medication,2024-11-03
+309,71,Male,136,86,291,18.8,Coronary Artery Disease,Surgery,2024-11-04
+310,35,Male,155,66,185,30.5,Diabetes,Observation,2024-11-05
+311,37,Male,127,62,263,29.8,Diabetes,Medication,2024-11-06
+312,83,Female,140,88,215,34.0,Diabetes,Medication,2024-11-07
+313,98,Female,152,83,254,37.6,Healthy,Lifestyle Changes,2024-11-08
+314,88,Other,93,62,234,20.2,Coronary Artery Disease,Surgery,2024-11-09
+315,98,Male,90,79,151,34.2,Diabetes,Medication,2024-11-10
+316,24,Male,97,74,224,22.5,Hyperlipidemia,Lifestyle Changes,2024-11-11
+317,92,Female,118,84,216,37.0,Hyperlipidemia,None,2024-11-12
+318,17,Male,144,89,204,36.1,Healthy,Medication,2024-11-13
+319,81,Female,92,73,155,30.1,Healthy,Medication,2024-11-14
+320,65,Male,121,66,299,33.8,Hypertension,Lifestyle Changes,2024-11-15
+321,53,Other,99,76,292,25.3,Hypertension,Surgery,2024-11-16
+322,34,Male,163,79,235,28.6,Hypertension,Medication,2024-11-17
+323,79,Male,172,95,209,36.2,Healthy,None,2024-11-18
+324,60,Female,123,68,250,28.4,Healthy,Medication,2024-11-19
+325,40,Male,176,97,161,26.2,Healthy,None,2024-11-20
+326,99,Male,144,81,198,29.1,Hyperlipidemia,Observation,2024-11-21
+327,32,Female,121,61,191,36.3,Healthy,Observation,2024-11-22
+328,67,Other,139,83,231,25.7,Hyperlipidemia,None,2024-11-23
+329,32,Other,96,67,184,22.2,Hypertension,Surgery,2024-11-24
+330,13,Female,97,70,283,33.8,Hypertension,Medication,2024-11-25
+331,20,Female,154,72,216,36.3,Hypertension,Medication,2024-11-26
+332,47,Female,146,76,229,20.7,Diabetes,Observation,2024-11-27
+333,19,Female,156,67,156,23.7,Diabetes,None,2024-11-28
+334,7,Female,177,80,163,21.6,Coronary Artery Disease,Medication,2024-11-29
+335,6,Other,176,77,222,26.0,Coronary Artery Disease,Medication,2024-11-30
+336,66,Other,148,89,292,28.2,Coronary Artery Disease,Surgery,2024-12-01
+337,16,Female,161,77,298,34.6,Diabetes,Lifestyle Changes,2024-12-02
+338,32,Male,143,90,215,32.5,Diabetes,Observation,2024-12-03
+339,47,Female,156,97,240,31.8,Coronary Artery Disease,Observation,2024-12-04
+340,75,Male,140,91,279,26.1,Coronary Artery Disease,Lifestyle Changes,2024-12-05
+341,58,Female,97,70,169,36.6,Healthy,Medication,2024-12-06
+342,85,Female,123,84,159,28.6,Coronary Artery Disease,Surgery,2024-12-07
+343,21,Other,124,92,174,39.6,Healthy,Surgery,2024-12-08
+344,29,Male,177,97,174,32.1,Hyperlipidemia,Observation,2024-12-09
+345,37,Male,167,67,203,21.2,Diabetes,Surgery,2024-12-10
+346,50,Other,121,70,182,33.0,Coronary Artery Disease,Lifestyle Changes,2024-12-11
+347,53,Other,135,81,244,25.5,Diabetes,Medication,2024-12-12
+348,7,Other,105,83,163,33.3,Diabetes,Lifestyle Changes,2024-12-13
+349,26,Other,157,76,214,20.0,Diabetes,None,2024-12-14
+350,26,Male,126,71,259,22.3,Hyperlipidemia,Observation,2024-12-15
+351,97,Male,143,91,229,36.9,Hypertension,Surgery,2024-12-16
+352,20,Female,174,74,203,23.4,Coronary Artery Disease,None,2024-12-17
+353,29,Female,103,75,274,36.5,Hypertension,Surgery,2024-12-18
+354,96,Other,144,81,280,24.5,Hypertension,Medication,2024-12-19
+355,27,Other,137,87,283,32.3,Hypertension,Medication,2024-12-20
+356,63,Other,171,79,174,33.4,Diabetes,Medication,2024-12-21
+357,96,Female,96,92,290,29.5,Healthy,Surgery,2024-12-22
+358,68,Female,163,69,266,25.1,Diabetes,None,2024-12-23
+359,60,Female,96,99,285,23.1,Diabetes,Medication,2024-12-24
+360,47,Female,122,91,298,19.2,Hypertension,None,2024-12-25
+361,18,Female,112,92,174,25.0,Diabetes,Surgery,2024-12-26
+362,3,Female,174,61,228,32.5,Hypertension,None,2024-12-27
+363,34,Female,108,92,217,38.7,Healthy,Surgery,2024-12-28
+364,63,Other,108,92,161,37.2,Coronary Artery Disease,Surgery,2024-12-29
+365,48,Other,125,72,181,35.0,Hypertension,Observation,2024-12-30
+366,16,Other,118,89,277,35.5,Healthy,Surgery,2024-12-31
+367,43,Other,149,92,245,32.8,Coronary Artery Disease,Surgery,2025-01-01
+368,91,Female,171,72,241,24.1,Hyperlipidemia,Lifestyle Changes,2025-01-02
+369,29,Male,91,85,290,38.0,Hypertension,Medication,2025-01-03
+370,92,Female,90,81,180,32.9,Hypertension,Observation,2025-01-04
+371,45,Male,136,98,227,30.5,Hyperlipidemia,Observation,2025-01-05
+372,5,Other,158,61,169,20.9,Hyperlipidemia,Observation,2025-01-06
+373,98,Female,109,97,295,28.1,Hypertension,Lifestyle Changes,2025-01-07
+374,36,Other,100,98,209,28.4,Hyperlipidemia,Surgery,2025-01-08
+375,23,Female,91,85,283,37.1,Diabetes,Medication,2025-01-09
+376,92,Other,156,74,242,30.3,Coronary Artery Disease,None,2025-01-10
+377,45,Male,176,93,192,26.7,Coronary Artery Disease,Surgery,2025-01-11
+378,52,Male,101,99,279,39.5,Coronary Artery Disease,Lifestyle Changes,2025-01-12
+379,94,Male,109,70,209,20.9,Diabetes,Surgery,2025-01-13
+380,98,Female,94,62,180,27.6,Hyperlipidemia,Surgery,2025-01-14
+381,59,Male,126,65,154,19.4,Healthy,Lifestyle Changes,2025-01-15
+382,96,Female,127,68,159,34.4,Hyperlipidemia,Observation,2025-01-16
+383,62,Male,98,65,238,38.2,Hypertension,Observation,2025-01-17
+384,84,Male,142,68,279,24.5,Coronary Artery Disease,Medication,2025-01-18
+385,31,Female,133,98,275,37.0,Hyperlipidemia,Medication,2025-01-19
+386,86,Female,175,90,160,24.8,Healthy,Observation,2025-01-20
+387,32,Male,113,91,205,38.1,Hypertension,None,2025-01-21
+388,66,Female,170,71,232,34.7,Diabetes,Surgery,2025-01-22
+389,17,Male,163,67,286,35.8,Diabetes,None,2025-01-23
+390,24,Female,119,67,248,18.9,Healthy,Surgery,2025-01-24
+391,94,Other,148,87,298,39.2,Hypertension,Observation,2025-01-25
+392,53,Other,176,79,222,34.1,Coronary Artery Disease,Medication,2025-01-26
+393,57,Other,170,66,264,25.1,Hyperlipidemia,Medication,2025-01-27
+394,66,Other,170,70,156,36.3,Hypertension,None,2025-01-28
+395,45,Other,103,79,229,24.6,Diabetes,Medication,2025-01-29
+396,23,Male,98,75,293,37.3,Healthy,Observation,2025-01-30
+397,31,Other,129,63,246,20.9,Healthy,None,2025-01-31
+398,46,Other,155,65,153,33.6,Hyperlipidemia,Surgery,2025-02-01
+399,85,Other,114,81,153,30.1,Healthy,Medication,2025-02-02
+400,22,Other,162,85,252,20.6,Healthy,Lifestyle Changes,2025-02-03
+401,65,Female,111,62,189,23.7,Hypertension,Medication,2025-02-04
+402,26,Male,93,73,166,18.8,Coronary Artery Disease,Surgery,2025-02-05
+403,1,Other,115,70,250,28.6,Hyperlipidemia,None,2025-02-06
+404,89,Other,147,77,252,25.0,Hypertension,Surgery,2025-02-07
+405,16,Other,118,71,273,31.4,Coronary Artery Disease,Lifestyle Changes,2025-02-08
+406,32,Male,176,82,201,24.9,Hypertension,Observation,2025-02-09
+407,8,Female,126,71,201,24.9,Hypertension,Medication,2025-02-10
+408,42,Male,164,72,273,34.5,Healthy,None,2025-02-11
+409,47,Female,159,84,212,19.5,Coronary Artery Disease,Observation,2025-02-12
+410,38,Other,107,78,265,37.9,Hyperlipidemia,Surgery,2025-02-13
+411,92,Other,174,95,211,36.8,Hyperlipidemia,None,2025-02-14
+412,41,Male,131,67,156,32.9,Coronary Artery Disease,Observation,2025-02-15
+413,25,Male,130,88,241,31.3,Healthy,None,2025-02-16
+414,98,Female,127,91,163,37.7,Diabetes,Lifestyle Changes,2025-02-17
+415,49,Female,123,77,235,22.5,Hypertension,Lifestyle Changes,2025-02-18
+416,24,Male,106,65,282,20.2,Healthy,Medication,2025-02-19
+417,23,Female,126,77,279,23.6,Coronary Artery Disease,Medication,2025-02-20
+418,12,Male,114,78,211,35.6,Hypertension,Lifestyle Changes,2025-02-21
+419,59,Female,165,81,298,19.2,Hyperlipidemia,None,2025-02-22
+420,6,Male,176,96,228,31.0,Diabetes,Lifestyle Changes,2025-02-23
+421,56,Male,175,91,298,39.9,Hyperlipidemia,Medication,2025-02-24
+422,35,Male,174,62,287,36.9,Coronary Artery Disease,Lifestyle Changes,2025-02-25
+423,44,Female,116,87,207,29.7,Hypertension,Lifestyle Changes,2025-02-26
+424,19,Female,146,69,269,19.9,Coronary Artery Disease,None,2025-02-27
+425,64,Female,120,94,282,36.4,Hypertension,Observation,2025-02-28
+426,7,Male,95,88,214,31.4,Healthy,Medication,2025-03-01
+427,15,Female,129,74,162,21.0,Diabetes,None,2025-03-02
+428,13,Female,101,92,231,20.5,Healthy,Lifestyle Changes,2025-03-03
+429,75,Male,142,66,288,38.1,Healthy,Lifestyle Changes,2025-03-04
+430,86,Other,160,71,298,32.9,Coronary Artery Disease,Observation,2025-03-05
+431,14,Male,99,89,201,36.3,Diabetes,Medication,2025-03-06
+432,91,Female,134,80,266,37.4,Hypertension,Medication,2025-03-07
+433,97,Male,106,90,175,30.8,Hypertension,Surgery,2025-03-08
+434,65,Other,115,83,183,29.6,Hyperlipidemia,Medication,2025-03-09
+435,31,Male,174,79,201,27.8,Hypertension,Observation,2025-03-10
+436,86,Female,151,96,261,25.3,Coronary Artery Disease,Surgery,2025-03-11
+437,62,Other,135,63,231,27.8,Healthy,Surgery,2025-03-12
+438,85,Female,153,87,191,35.1,Healthy,Lifestyle Changes,2025-03-13
+439,50,Other,91,79,170,31.4,Healthy,Lifestyle Changes,2025-03-14
+440,24,Other,143,83,191,37.7,Diabetes,Medication,2025-03-15
+441,57,Male,154,91,290,28.0,Hypertension,Surgery,2025-03-16
+442,62,Male,140,95,262,31.6,Coronary Artery Disease,Lifestyle Changes,2025-03-17
+443,61,Female,142,93,254,32.1,Diabetes,Observation,2025-03-18
+444,21,Male,125,95,166,31.2,Hyperlipidemia,Lifestyle Changes,2025-03-19
+445,57,Male,115,61,269,33.6,Coronary Artery Disease,Lifestyle Changes,2025-03-20
+446,57,Other,118,74,286,23.6,Coronary Artery Disease,Surgery,2025-03-21
+447,85,Male,110,93,278,29.5,Coronary Artery Disease,Surgery,2025-03-22
+448,48,Other,100,95,279,20.7,Healthy,None,2025-03-23
+449,51,Other,129,65,209,26.8,Coronary Artery Disease,Observation,2025-03-24
+450,41,Other,100,98,197,29.0,Hypertension,Surgery,2025-03-25
+451,69,Female,125,71,178,32.5,Coronary Artery Disease,Medication,2025-03-26
+452,14,Female,148,62,246,38.9,Healthy,Observation,2025-03-27
+453,53,Female,128,77,159,31.4,Coronary Artery Disease,Observation,2025-03-28
+454,59,Other,143,99,207,34.5,Hyperlipidemia,Surgery,2025-03-29
+455,96,Female,144,80,170,29.4,Hyperlipidemia,Observation,2025-03-30
+456,7,Female,113,74,177,32.1,Healthy,Surgery,2025-03-31
+457,52,Male,111,92,183,20.0,Hypertension,Lifestyle Changes,2025-04-01
+458,59,Female,158,94,157,24.0,Hypertension,None,2025-04-02
+459,4,Female,145,85,228,26.3,Diabetes,Lifestyle Changes,2025-04-03
+460,67,Other,122,67,294,28.7,Healthy,Surgery,2025-04-04
+461,5,Other,125,95,236,19.5,Coronary Artery Disease,Surgery,2025-04-05
+462,95,Other,109,89,237,21.5,Healthy,Lifestyle Changes,2025-04-06
+463,93,Other,172,82,218,24.5,Diabetes,Medication,2025-04-07
+464,46,Other,170,73,236,39.4,Healthy,Medication,2025-04-08
+465,98,Other,151,73,250,25.6,Healthy,Medication,2025-04-09
+466,54,Female,162,61,157,28.9,Diabetes,Surgery,2025-04-10
+467,39,Other,115,96,226,22.7,Hypertension,Observation,2025-04-11
+468,51,Other,155,64,236,31.6,Coronary Artery Disease,Surgery,2025-04-12
+469,15,Male,162,97,192,24.5,Diabetes,Observation,2025-04-13
+470,12,Female,162,73,278,23.0,Hyperlipidemia,Lifestyle Changes,2025-04-14
+471,29,Female,129,98,258,29.6,Hypertension,None,2025-04-15
+472,18,Female,106,84,166,18.6,Hyperlipidemia,Observation,2025-04-16
+473,16,Other,90,79,282,18.7,Hypertension,Medication,2025-04-17
+474,62,Other,178,61,297,23.2,Coronary Artery Disease,Surgery,2025-04-18
+475,18,Other,150,98,170,19.3,Coronary Artery Disease,Lifestyle Changes,2025-04-19
+476,91,Male,132,65,207,20.8,Healthy,Medication,2025-04-20
+477,57,Other,131,76,259,25.8,Hyperlipidemia,Lifestyle Changes,2025-04-21
+478,54,Male,114,84,288,35.8,Hypertension,None,2025-04-22
+479,89,Female,128,87,292,30.8,Coronary Artery Disease,Surgery,2025-04-23
+480,89,Other,124,61,284,29.5,Diabetes,Surgery,2025-04-24
+481,61,Male,92,94,177,24.8,Coronary Artery Disease,None,2025-04-25
+482,22,Male,133,96,200,38.5,Diabetes,Surgery,2025-04-26
+483,8,Other,140,64,154,27.0,Hypertension,Observation,2025-04-27
+484,11,Female,101,60,154,20.4,Coronary Artery Disease,Lifestyle Changes,2025-04-28
+485,0,Female,108,99,243,31.8,Coronary Artery Disease,Medication,2025-04-29
+486,57,Female,133,71,245,20.9,Hypertension,None,2025-04-30
+487,0,Male,148,95,157,25.9,Coronary Artery Disease,Observation,2025-05-01
+488,33,Male,138,82,213,29.4,Diabetes,Medication,2025-05-02
+489,95,Male,150,90,287,37.3,Coronary Artery Disease,Medication,2025-05-03
+490,47,Male,106,70,187,29.1,Hyperlipidemia,None,2025-05-04
+491,88,Female,163,69,260,33.6,Healthy,Observation,2025-05-05
+492,0,Other,146,62,261,39.8,Diabetes,Medication,2025-05-06
+493,15,Male,144,73,230,21.3,Hyperlipidemia,Medication,2025-05-07
+494,60,Male,136,75,285,24.4,Hypertension,Observation,2025-05-08
+495,63,Female,101,69,253,27.0,Diabetes,Surgery,2025-05-09
+496,62,Other,151,88,222,27.6,Healthy,Medication,2025-05-10
+497,68,Other,169,69,198,27.3,Healthy,Lifestyle Changes,2025-05-11
+498,21,Female,177,71,185,38.0,Hypertension,Observation,2025-05-12
+499,92,Female,172,89,275,33.9,Hypertension,Medication,2025-05-13
+500,66,Other,97,60,217,31.6,Diabetes,None,2025-05-14
